@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+.lenght{
+    background-color: hsl(216, 50%, 16%);
+    height: 410px;
+    width: 270px;
+    margin-left: 570px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.myimage{
+    /* padding-left: 20px;
+    padding-top: 20px; */
+    width: 230px;
+    height: 230px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.image{
+    background: url(images/image-equilibrium.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius:9px;
+    position: absolute;
+    
+}
+
+.eye{
+    background: url(images/icon-view.svg);
+    background-position: center;
+    +
+    height: 100%;
+    width: 100%;
+    border-radius:9px;
+    position: absolute;
+    top: 0;
+    /* left: 20px; */
+    background-color: rgba(0, 255, 255, 0.233);
+    visibility: hidden;
+}
+
+.image:active + .eye{
+    visibility: visible;
+}
+
+.main{
+    color:  hsl(0, 0%, 100%);
+    padding-left: 23px;
+    font-size: 8px;
+    margin-top: 15px;
+    padding-right: 23px;
+}
+.Equilibruim{
+    margin-right: 10px;
+}
+.content{
+    font-size: 15px;
+    padding-top: 8px;
+    color: hsl(215, 51%, 70%);
+}
+.logo-2{
+    display: flex;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+.ethereum{
+     height: 14px;
+     padding-top: 10px;
+}
+.ETH{
+    margin-left: 5px;
+    font-size: 11px;
+    padding-top: 11px;
+    color: hsl(178, 100%, 50%);
+}
+.clock{
+    height: 15px;
+    padding-top: 10px;
+    margin-left: 90px;
+}
+.logo-3{
+    margin-left: 80px;
+    margin-top: -25px;
+    display: flex;
+}
+.days{
+    font-size: 12px ;
+    margin-top: 11px;
+    color: hsl(215, 51%, 70%);
+    margin-left: 2px;
+}
+.line{
+    width: 222px;
+    height: 1px;
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-top: 10px;
+    background-color:hsl(215, 51%, 70%);
+}
+.jj{
+    display: flex;
+    margin-left: 23px;
+}
+.avatar{
+    border: 2px solid white;
+    border-radius: 94px;
+    height: 25px;
+    margin-top: 10px;
+}
+.creation{
+    color:hsl(215, 51%, 70%);
+    padding-left: 9px;
+    padding-top: 19px;
+    font-size: 13px;
+}
+.name-4{
+    color:  hsl(0, 0%, 100%);
+    padding-left: 5px;
+    padding-top: 19px;
+    font-size: 13px;
+}
