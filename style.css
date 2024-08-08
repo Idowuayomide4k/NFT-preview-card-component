@@ -23,7 +23,7 @@ body{
     left: 20px;
 }
 .image{
-    background: url(images/image-equilibrium.jpg);
+    background: url(image-equilibrium.jpg);
     background-position: center;
     background-size: cover;
     height: 100%;
@@ -34,7 +34,7 @@ body{
 }
 
 .eye{
-    background: url(images/icon-view.svg);
+    background: url(icon-view.svg);
     background-position: center;
     +
     height: 100%;
